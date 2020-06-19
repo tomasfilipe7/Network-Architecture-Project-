@@ -1,0 +1,42 @@
+Jun 19 23:10:16.842 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 19 23:10:16.842 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 45175.
+Jun 19 23:10:16.852 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 19 23:10:16.852 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips 
+Jun 19 23:10:16.852 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips
+Jun 19 23:10:16.852 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/72a5ce88-260f-4e16-990a-5479e8161585 
+Jun 19 23:10:16.852 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/72a5ce88-260f-4e16-990a-5479e8161585
+Jun 19 23:10:16.852 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Jun 19 23:10:16.853 VM: VM R4 created.
+Jun 19 23:10:16.853 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5009 
+Jun 19 23:10:16.853 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Jun 19 23:10:16.853 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:10:16.853 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Jun 19 23:10:16.854 HYPERVISOR: exec_cmd: vm set_ios R4 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:10:16.854 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:10:16.854 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60608040 
+Jun 19 23:10:16.854 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Jun 19 23:10:16.854 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Jun 19 23:10:16.854 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Jun 19 23:10:16.854 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:10:16.854 HYPERVISOR: exec_cmd: vm slot_remove_binding R4 0 0 
+Jun 19 23:10:16.855 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:10:16.855 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-2FE 
+Jun 19 23:10:16.855 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:10:16.855 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+Jun 19 23:10:16.855 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:10:16.855 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-2FE-TX 
+Jun 19 23:10:16.855 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:10:16.855 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-2FE-TX 
+Jun 19 23:10:16.886 HYPERVISOR: exec_cmd: vm set_ios R4 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:10:18.944 HYPERVISOR: exec_cmd: vm set_ios R4 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:10:24.427 HYPERVISOR: exec_cmd: vm set_ios R4 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:10:52.580 HYPERVISOR: exec_cmd: vm set_ios R4 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:12:07.837 HYPERVISOR: exec_cmd: nio create_udp udp-fb1ad02d-9a7a-4720-bf09-42d265045dbd 10034 127.0.0.1 10035 
+Jun 19 23:12:08.048 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-fb1ad02d-9a7a-4720-bf09-42d265045dbd 
+Jun 19 23:12:08.049 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:12:19.447 HYPERVISOR: exec_cmd: nio create_udp udp-acb1e433-28a8-4613-820a-2d4f3c1b6ccf 10042 127.0.0.1 10043 
+Jun 19 23:12:19.448 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-acb1e433-28a8-4613-820a-2d4f3c1b6ccf 
+Jun 19 23:12:19.448 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 19 23:12:21.983 HYPERVISOR: exec_cmd: nio create_udp udp-7d268ca7-a1c4-43f6-aad3-821aa75ef3c0 10048 127.0.0.1 10049 
+Jun 19 23:12:21.984 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-7d268ca7-a1c4-43f6-aad3-821aa75ef3c0 
+Jun 19 23:12:21.985 HYPERVISOR: exec_cmd: vm get_status R4 

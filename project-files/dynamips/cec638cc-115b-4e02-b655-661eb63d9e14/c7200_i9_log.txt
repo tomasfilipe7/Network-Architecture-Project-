@@ -1,0 +1,1 @@
+Jun 19 23:16:50.890 VM: renamed from 'R8' to 'MicroondasAveiro'

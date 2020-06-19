@@ -1,0 +1,41 @@
+Jun 19 23:10:48.131 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 19 23:10:48.131 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54349.
+Jun 19 23:10:48.140 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 19 23:10:48.140 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips 
+Jun 19 23:10:48.140 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips
+Jun 19 23:10:48.141 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/da1b7956-0afd-49ea-a6f2-a6f1b0b197f3 
+Jun 19 23:10:48.141 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/da1b7956-0afd-49ea-a6f2-a6f1b0b197f3
+Jun 19 23:10:48.141 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+Jun 19 23:10:48.141 VM: VM R5 created.
+Jun 19 23:10:48.141 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5010 
+Jun 19 23:10:48.142 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Jun 19 23:10:48.142 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:10:48.142 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Jun 19 23:10:48.143 HYPERVISOR: exec_cmd: vm set_ios R5 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:10:48.143 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:10:48.143 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60608040 
+Jun 19 23:10:48.143 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+Jun 19 23:10:48.144 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Jun 19 23:10:48.144 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Jun 19 23:10:48.144 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:10:48.144 HYPERVISOR: exec_cmd: vm slot_remove_binding R5 0 0 
+Jun 19 23:10:48.145 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:10:48.145 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-2FE 
+Jun 19 23:10:48.145 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:10:48.145 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-2FE-TX 
+Jun 19 23:10:48.145 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:10:48.146 HYPERVISOR: exec_cmd: vm slot_add_binding R5 2 0 PA-2FE-TX 
+Jun 19 23:10:48.146 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:10:48.146 HYPERVISOR: exec_cmd: vm slot_add_binding R5 3 0 PA-2FE-TX 
+Jun 19 23:10:48.199 HYPERVISOR: exec_cmd: vm set_ios R5 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:10:48.908 HYPERVISOR: exec_cmd: vm set_ios R5 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:10:50.279 HYPERVISOR: exec_cmd: vm set_ios R5 /home/tomasfilipe/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 23:12:14.528 HYPERVISOR: exec_cmd: nio create_udp udp-31393cd0-b8e8-4fd1-816b-5d50108a341f 10038 127.0.0.1 10039 
+Jun 19 23:12:14.739 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 0 0 udp-31393cd0-b8e8-4fd1-816b-5d50108a341f 
+Jun 19 23:12:14.740 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:12:19.453 HYPERVISOR: exec_cmd: nio create_udp udp-d13e2b3a-eadc-4e73-b67d-77423cce09f5 10044 127.0.0.1 10045 
+Jun 19 23:12:19.454 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 0 1 udp-d13e2b3a-eadc-4e73-b67d-77423cce09f5 
+Jun 19 23:12:19.454 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 19 23:12:27.218 HYPERVISOR: exec_cmd: nio create_udp udp-7de366ba-ba5d-462b-a644-739c6a78d952 10052 127.0.0.1 10053 
+Jun 19 23:12:27.219 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 0 udp-7de366ba-ba5d-462b-a644-739c6a78d952 
+Jun 19 23:12:27.219 HYPERVISOR: exec_cmd: vm get_status R5 

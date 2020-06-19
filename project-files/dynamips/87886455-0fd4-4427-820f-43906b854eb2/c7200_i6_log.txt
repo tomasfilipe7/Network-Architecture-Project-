@@ -1,0 +1,1 @@
+Jun 19 23:13:36.941 VM: renamed from 'R6' to 'MicroondasLisboa'

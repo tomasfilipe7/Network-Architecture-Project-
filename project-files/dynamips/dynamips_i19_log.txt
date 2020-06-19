@@ -1,0 +1,34 @@
+Jun 19 23:46:57.304 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 19 23:46:57.304 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35049.
+Jun 19 23:46:57.315 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 19 23:46:57.315 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips 
+Jun 19 23:46:57.315 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips
+Jun 19 23:46:57.315 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/1aff3bcf-6ee7-4046-9702-76ce597280b2 
+Jun 19 23:46:57.315 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/1aff3bcf-6ee7-4046-9702-76ce597280b2
+Jun 19 23:46:57.315 HYPERVISOR: exec_cmd: vm create ESW5 14 c3725 
+Jun 19 23:46:57.315 VM: VM ESW5 created.
+Jun 19 23:46:57.315 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW5 5023 
+Jun 19 23:46:57.315 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW5 
+Jun 19 23:46:57.316 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 19 23:46:57.316 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 19 23:46:57.316 HYPERVISOR: exec_cmd: vm set_idle_pc ESW5 0x60a6a1e0 
+Jun 19 23:46:57.316 HYPERVISOR: exec_cmd: vm set_nvram ESW5 256 
+Jun 19 23:46:57.317 HYPERVISOR: exec_cmd: vm set_disk0 ESW5 1 
+Jun 19 23:46:57.317 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 19 23:46:57.317 HYPERVISOR: exec_cmd: vm slot_add_binding ESW5 1 0 NM-16ESW 
+Jun 19 23:46:57.375 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 19 23:46:58.789 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 19 23:48:03.728 HYPERVISOR: exec_cmd: nio create_udp udp-85c588ce-b632-4c28-bd0d-1b642083dfbc 10162 127.0.0.1 10163 
+Jun 19 23:48:03.939 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 0 1 udp-85c588ce-b632-4c28-bd0d-1b642083dfbc 
+Jun 19 23:48:03.940 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 19 23:48:09.315 HYPERVISOR: exec_cmd: nio create_udp udp-1bdf4f8f-209a-4bbb-b077-c747eb39df48 10166 127.0.0.1 10167 
+Jun 19 23:48:09.316 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 0 0 udp-1bdf4f8f-209a-4bbb-b077-c747eb39df48 
+Jun 19 23:48:09.316 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 19 23:48:13.232 HYPERVISOR: exec_cmd: nio create_udp udp-11bbe64b-f25e-4f02-ad19-c9d06e21d013 10172 127.0.0.1 10173 
+Jun 19 23:48:13.233 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 1 0 udp-11bbe64b-f25e-4f02-ad19-c9d06e21d013 
+Jun 19 23:48:13.233 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 19 23:48:29.596 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 19 23:49:23.645 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 19 23:50:07.257 HYPERVISOR: exec_cmd: nio create_udp udp-6c89bade-9776-4d43-9845-f80d09f90590 10188 127.0.0.1 10189 
+Jun 19 23:50:07.258 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 1 1 udp-6c89bade-9776-4d43-9845-f80d09f90590 
+Jun 19 23:50:07.258 HYPERVISOR: exec_cmd: vm get_status ESW5 
