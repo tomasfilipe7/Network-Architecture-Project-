@@ -1,0 +1,5 @@
+# ignore 
+*
+!*.cfg
+!*.vpc
+!*.gns3
