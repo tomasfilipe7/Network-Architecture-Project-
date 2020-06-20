@@ -1,27 +1,45 @@
-Jun 19 23:31:44.801 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
-Jun 19 23:31:44.801 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58713.
-Jun 19 23:31:44.811 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 19 23:31:44.811 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips 
-Jun 19 23:31:44.811 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips
-Jun 19 23:31:44.812 HYPERVISOR: exec_cmd: ethsw create Switch4 
-Jun 19 23:32:55.343 HYPERVISOR: exec_cmd: nio create_udp udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 10111 127.0.0.1 10110 
-Jun 19 23:32:55.343 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 
-Jun 19 23:32:55.345 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:33:07.683 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:38:47.392 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:43:12.708 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:43:20.092 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:43:29.396 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:43:33.700 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:45:41.636 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:45:45.995 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:45:52.140 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:46:49.099 HYPERVISOR: exec_cmd: nio create_udp udp-c85e9978-94ae-4015-b49c-40373d87f982 10145 127.0.0.1 10144 
-Jun 19 23:46:49.099 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-c85e9978-94ae-4015-b49c-40373d87f982 
-Jun 19 23:46:49.102 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-c85e9978-94ae-4015-b49c-40373d87f982 1 
-Jun 19 23:46:52.670 HYPERVISOR: exec_cmd: nio create_udp udp-5ea38cb4-7bda-4a68-a85d-d897c07e07ad 10149 127.0.0.1 10148 
-Jun 19 23:46:52.670 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-5ea38cb4-7bda-4a68-a85d-d897c07e07ad 
-Jun 19 23:46:52.686 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-5ea38cb4-7bda-4a68-a85d-d897c07e07ad 1 
-Jun 19 23:49:37.465 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-12cebe4c-5cd7-4bb9-80a5-64c00d054b4c 1 
-Jun 19 23:49:37.472 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-c85e9978-94ae-4015-b49c-40373d87f982 1 
-Jun 19 23:49:37.528 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-5ea38cb4-7bda-4a68-a85d-d897c07e07ad 1 
+Jun 20 22:32:39.392 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 20 22:32:39.392 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40727.
+Jun 20 22:32:39.402 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 20 22:32:39.402 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips 
+Jun 20 22:32:39.402 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips
+Jun 20 22:32:39.403 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/6c33c4fe-2c60-4415-8bfb-ef2662e1dc4f 
+Jun 20 22:32:39.403 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/6c33c4fe-2c60-4415-8bfb-ef2662e1dc4f
+Jun 20 22:32:39.403 HYPERVISOR: exec_cmd: vm create ESW3 12 c3725 
+Jun 20 22:32:39.403 VM: VM ESW3 created.
+Jun 20 22:32:39.403 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW3 5021 
+Jun 20 22:32:39.403 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW3 
+Jun 20 22:32:39.403 HYPERVISOR: exec_cmd: vm set_disk0 ESW3 1 
+Jun 20 22:32:39.404 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:32:39.404 HYPERVISOR: exec_cmd: vm set_idle_pc ESW3 0x60a6a1e0 
+Jun 20 22:32:39.404 HYPERVISOR: exec_cmd: vm set_ios ESW3 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 20 22:32:39.404 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW3 c20c.52b8.0000 
+Jun 20 22:32:39.405 HYPERVISOR: exec_cmd: vm set_nvram ESW3 256 
+Jun 20 22:32:39.405 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:32:39.405 HYPERVISOR: exec_cmd: vm slot_add_binding ESW3 1 0 NM-16ESW 
+Jun 20 22:32:43.915 HYPERVISOR: exec_cmd: nio create_udp udp-cbdea352-1a16-44ba-a400-ed1cbd3d5d52 10118 127.0.0.1 10119 
+Jun 20 22:32:44.126 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 0 0 udp-cbdea352-1a16-44ba-a400-ed1cbd3d5d52 
+Jun 20 22:32:44.127 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:32:44.220 HYPERVISOR: exec_cmd: nio create_udp udp-8c668a1b-c814-4ba1-8c3f-05e38108b18b 10124 127.0.0.1 10125 
+Jun 20 22:32:44.221 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 0 1 udp-8c668a1b-c814-4ba1-8c3f-05e38108b18b 
+Jun 20 22:32:44.221 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:32:44.651 HYPERVISOR: exec_cmd: nio create_udp udp-8f795bc9-36f2-441d-8f83-5b3f29cca587 10142 127.0.0.1 10143 
+Jun 20 22:32:44.651 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 0 udp-8f795bc9-36f2-441d-8f83-5b3f29cca587 
+Jun 20 22:32:44.652 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:32:44.786 HYPERVISOR: exec_cmd: nio create_udp udp-bebe4478-7aec-472c-a0cb-1e1a9e814646 10150 127.0.0.1 10151 
+Jun 20 22:32:44.787 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW3 1 1 udp-bebe4478-7aec-472c-a0cb-1e1a9e814646 
+Jun 20 22:32:44.787 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:33:02.821 HYPERVISOR: exec_cmd: vm set_ghost_status ESW3 2 
+Jun 20 22:33:02.822 HYPERVISOR: exec_cmd: vm set_ghost_file ESW3 /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 22:33:02.822 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:33:02.822 HYPERVISOR: exec_cmd: vm set_config ESW3 configs/i12_startup-config.cfg 
+Jun 20 22:33:02.823 HYPERVISOR: exec_cmd: vm start ESW3 
+Jun 20 22:37:32.027 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:37:32.027 HYPERVISOR: exec_cmd: vm stop ESW3 
+Jun 20 22:37:32.170 VM: VM ESW3 shutdown.
+Jun 20 22:37:32.171 HYPERVISOR: exec_cmd: vm extract_config ESW3 
+Jun 20 22:43:30.292 HYPERVISOR: exec_cmd: vm set_ghost_status ESW3 2 
+Jun 20 22:43:30.292 HYPERVISOR: exec_cmd: vm set_ghost_file ESW3 /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 22:43:30.292 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Jun 20 22:43:30.292 HYPERVISOR: exec_cmd: vm set_config ESW3 configs/i12_startup-config.cfg 
+Jun 20 22:43:30.292 HYPERVISOR: exec_cmd: vm start ESW3 
