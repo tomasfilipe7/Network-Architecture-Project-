@@ -65,3 +65,21 @@ Jun 20 22:43:29.306 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/tomasfilipe
 Jun 20 22:43:29.308 HYPERVISOR: exec_cmd: vm get_status R1 
 Jun 20 22:43:29.319 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
 Jun 20 22:43:29.328 HYPERVISOR: exec_cmd: vm start R1 
+Jun 20 22:50:35.110 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 20 22:50:35.115 HYPERVISOR: exec_cmd: vm stop R1 
+Jun 20 22:50:35.220 VM: VM R1 shutdown.
+Jun 20 22:50:35.221 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jun 20 23:10:35.211 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Jun 20 23:10:35.212 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 20 23:10:35.213 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 20 23:10:35.214 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Jun 20 23:10:35.220 HYPERVISOR: exec_cmd: vm start R1 
+Jun 20 23:16:09.491 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 20 23:16:09.493 HYPERVISOR: exec_cmd: vm stop R1 
+Jun 20 23:16:09.595 VM: VM R1 shutdown.
+Jun 20 23:16:09.596 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jun 20 23:17:20.540 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Jun 20 23:17:20.555 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 20 23:17:20.557 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 20 23:17:20.568 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Jun 20 23:17:20.578 HYPERVISOR: exec_cmd: vm start R1 

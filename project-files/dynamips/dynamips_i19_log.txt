@@ -43,3 +43,21 @@ Jun 20 22:43:30.526 HYPERVISOR: exec_cmd: vm set_ghost_file ESW6 /home/tomasfili
 Jun 20 22:43:30.526 HYPERVISOR: exec_cmd: vm get_status ESW6 
 Jun 20 22:43:30.527 HYPERVISOR: exec_cmd: vm set_config ESW6 configs/i15_startup-config.cfg 
 Jun 20 22:43:30.527 HYPERVISOR: exec_cmd: vm start ESW6 
+Jun 20 22:50:36.055 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 20 22:50:36.055 HYPERVISOR: exec_cmd: vm stop ESW6 
+Jun 20 22:50:36.195 VM: VM ESW6 shutdown.
+Jun 20 22:50:36.195 HYPERVISOR: exec_cmd: vm extract_config ESW6 
+Jun 20 23:10:36.456 HYPERVISOR: exec_cmd: vm set_ghost_status ESW6 2 
+Jun 20 23:10:36.456 HYPERVISOR: exec_cmd: vm set_ghost_file ESW6 /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 23:10:36.456 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 20 23:10:36.457 HYPERVISOR: exec_cmd: vm set_config ESW6 configs/i15_startup-config.cfg 
+Jun 20 23:10:36.457 HYPERVISOR: exec_cmd: vm start ESW6 
+Jun 20 23:16:10.399 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 20 23:16:10.399 HYPERVISOR: exec_cmd: vm stop ESW6 
+Jun 20 23:16:10.526 VM: VM ESW6 shutdown.
+Jun 20 23:16:10.527 HYPERVISOR: exec_cmd: vm extract_config ESW6 
+Jun 20 23:17:21.812 HYPERVISOR: exec_cmd: vm set_ghost_status ESW6 2 
+Jun 20 23:17:21.813 HYPERVISOR: exec_cmd: vm set_ghost_file ESW6 /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 20 23:17:21.813 HYPERVISOR: exec_cmd: vm get_status ESW6 
+Jun 20 23:17:21.814 HYPERVISOR: exec_cmd: vm set_config ESW6 configs/i15_startup-config.cfg 
+Jun 20 23:17:21.814 HYPERVISOR: exec_cmd: vm start ESW6 
