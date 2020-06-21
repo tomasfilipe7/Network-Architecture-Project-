@@ -92,3 +92,71 @@ Jun 21 10:16:40.404 HYPERVISOR: exec_cmd: vm get_status ESW5
 Jun 21 10:16:40.405 HYPERVISOR: exec_cmd: vm stop ESW5 
 Jun 21 10:16:40.542 VM: VM ESW5 shutdown.
 Jun 21 10:16:40.543 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 21 10:21:51.346 HYPERVISOR: exec_cmd: vm set_ghost_status ESW5 2 
+Jun 21 10:21:51.347 HYPERVISOR: exec_cmd: vm set_ghost_file ESW5 /home/tomasfilipe/GNS3/projects/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 21 10:21:51.347 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:21:51.347 HYPERVISOR: exec_cmd: vm set_config ESW5 configs/i14_startup-config.cfg 
+Jun 21 10:21:51.347 HYPERVISOR: exec_cmd: vm start ESW5 
+Jun 21 10:22:37.883 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 21 10:26:42.286 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:26:42.286 HYPERVISOR: exec_cmd: vm stop ESW5 
+Jun 21 10:26:42.431 VM: VM ESW5 shutdown.
+Jun 21 10:26:42.432 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 21 10:27:11.843 HYPERVISOR: exec_cmd: vm set_ghost_status ESW5 2 
+Jun 21 10:27:11.844 HYPERVISOR: exec_cmd: vm set_ghost_file ESW5 /home/tomasfilipe/GNS3/projects/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 21 10:27:11.844 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:27:11.845 HYPERVISOR: exec_cmd: vm set_config ESW5 configs/i14_startup-config.cfg 
+Jun 21 10:27:11.845 HYPERVISOR: exec_cmd: vm start ESW5 
+Jun 21 10:28:06.808 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:28:06.808 HYPERVISOR: exec_cmd: vm stop ESW5 
+Jun 21 10:28:06.941 VM: VM ESW5 shutdown.
+Jun 21 10:28:06.941 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 21 10:30:08.524 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:30:08.524 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW5 0 0 
+Jun 21 10:30:08.525 HYPERVISOR: exec_cmd: nio delete udp-973fd139-4fa1-4190-af8f-bd81edd8d678 
+Jun 21 10:30:12.654 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:30:12.654 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW5 0 1 
+Jun 21 10:30:12.655 HYPERVISOR: exec_cmd: nio delete udp-e7cb27b0-b2ce-4140-b628-38d7919d0853 
+Jun 21 10:30:53.011 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:30:53.011 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW5 1 0 
+Jun 21 10:30:53.012 HYPERVISOR: exec_cmd: nio delete udp-8b02e919-93d7-4692-9889-9c22402c6d50 
+Jun 21 10:30:57.940 HYPERVISOR: exec_cmd: nio create_udp udp-00ad9463-4665-4983-8982-6551552594fa 10116 127.0.0.1 10117 
+Jun 21 10:30:57.941 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 1 0 udp-00ad9463-4665-4983-8982-6551552594fa 
+Jun 21 10:30:57.942 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:31:22.310 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 21 10:31:28.534 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 21 10:31:33.052 HYPERVISOR: exec_cmd: vm set_ios ESW5 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 21 10:31:51.224 HYPERVISOR: exec_cmd: nio create_udp udp-13342ea5-b21b-4dfe-b30b-795fb7a1897d 10136 127.0.0.1 10137 
+Jun 21 10:31:51.225 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 1 2 udp-13342ea5-b21b-4dfe-b30b-795fb7a1897d 
+Jun 21 10:31:51.225 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:32:13.115 HYPERVISOR: exec_cmd: nio create_udp udp-dc0ae090-e79b-47a3-af32-6579c2249f66 10174 127.0.0.1 10175 
+Jun 21 10:32:13.116 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW5 1 3 udp-dc0ae090-e79b-47a3-af32-6579c2249f66 
+Jun 21 10:32:13.116 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:32:52.831 HYPERVISOR: exec_cmd: vm set_ghost_status ESW5 2 
+Jun 21 10:32:52.831 HYPERVISOR: exec_cmd: vm set_ghost_file ESW5 /home/tomasfilipe/GNS3/projects/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 21 10:32:52.832 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:32:52.832 HYPERVISOR: exec_cmd: vm set_config ESW5 configs/i14_startup-config.cfg 
+Jun 21 10:32:52.832 HYPERVISOR: exec_cmd: vm start ESW5 
+Jun 21 10:35:25.110 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:35:25.110 HYPERVISOR: exec_cmd: vm stop ESW5 
+Jun 21 10:35:25.245 VM: VM ESW5 shutdown.
+Jun 21 10:35:25.245 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 21 10:35:30.448 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:35:30.448 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW5 1 1 
+Jun 21 10:35:30.449 HYPERVISOR: exec_cmd: nio delete udp-cca9d6cd-2e6b-4b73-ad5c-0a9e6c4bdf04 
+Jun 21 10:35:30.512 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:35:30.512 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW5 1 0 
+Jun 21 10:35:30.513 HYPERVISOR: exec_cmd: nio delete udp-00ad9463-4665-4983-8982-6551552594fa 
+Jun 21 10:35:30.575 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:35:30.575 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW5 1 2 
+Jun 21 10:35:30.576 HYPERVISOR: exec_cmd: nio delete udp-13342ea5-b21b-4dfe-b30b-795fb7a1897d 
+Jun 21 10:35:30.636 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:35:30.636 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding ESW5 1 3 
+Jun 21 10:35:30.636 HYPERVISOR: exec_cmd: nio delete udp-dc0ae090-e79b-47a3-af32-6579c2249f66 
+Jun 21 10:35:30.921 HYPERVISOR: exec_cmd: vm get_status ESW5 
+Jun 21 10:35:30.921 HYPERVISOR: exec_cmd: vm extract_config ESW5 
+Jun 21 10:35:30.921 HYPERVISOR: exec_cmd: vm delete ESW5 
+Jun 21 10:35:30.921 VM: VM ESW5 destroyed.
+Jun 21 10:35:30.922 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 21 10:35:30.999 HYPERVISOR: Stopped.
+Jun 21 10:35:30.999 GENERAL: reset done.

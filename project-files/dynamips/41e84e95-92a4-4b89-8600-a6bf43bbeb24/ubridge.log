@@ -44,3 +44,27 @@ UDP tunnel connecting from local port 10207 to IPv4 address 127.0.0.1 on port 10
 UDP tunnel connecting from local port 10203 to IPv4 address 127.0.0.1 on port 10202
 Source NIO listener thread for DYNAMIPS-10206-10207 has started
 Destination NIO listener thread for DYNAMIPS-10206-10207 has started
+UDP tunnel connecting from local port 10123 to IPv4 address 127.0.0.1 on port 10122
+UDP tunnel connecting from local port 10120 to IPv4 address 127.0.0.1 on port 10121
+Destination NIO listener thread for DYNAMIPS-10122-10123 has started
+Source NIO listener thread for DYNAMIPS-10122-10123 has started
+UDP tunnel connecting from local port 10129 to IPv4 address 127.0.0.1 on port 10128
+UDP tunnel connecting from local port 10126 to IPv4 address 127.0.0.1 on port 10127
+Source NIO listener thread for DYNAMIPS-10128-10129 has started
+Destination NIO listener thread for DYNAMIPS-10128-10129 has started
+UDP tunnel connecting from local port 10135 to IPv4 address 127.0.0.1 on port 10134
+UDP tunnel connecting from local port 10132 to IPv4 address 127.0.0.1 on port 10133
+Source NIO listener thread for DYNAMIPS-10134-10135 has started
+Destination NIO listener thread for DYNAMIPS-10134-10135 has started
+UDP tunnel connecting from local port 10155 to IPv4 address 127.0.0.1 on port 10154
+UDP tunnel connecting from local port 10152 to IPv4 address 127.0.0.1 on port 10153
+Source NIO listener thread for DYNAMIPS-10154-10155 has started
+Destination NIO listener thread for DYNAMIPS-10154-10155 has started
+UDP tunnel connecting from local port 10171 to IPv4 address 127.0.0.1 on port 10170
+UDP tunnel connecting from local port 10155 to IPv4 address 127.0.0.1 on port 10154
+Source NIO listener thread for DYNAMIPS-10170-10171 has started
+Destination NIO listener thread for DYNAMIPS-10170-10171 has started
+UDP tunnel connecting from local port 10175 to IPv4 address 127.0.0.1 on port 10174
+UDP tunnel connecting from local port 10172 to IPv4 address 127.0.0.1 on port 10173
+Source NIO listener thread for DYNAMIPS-10174-10175 has started
+Destination NIO listener thread for DYNAMIPS-10174-10175 has started
