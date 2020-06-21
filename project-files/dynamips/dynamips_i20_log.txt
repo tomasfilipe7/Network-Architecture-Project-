@@ -1,12 +1,92 @@
-Jun 20 22:32:39.506 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
-Jun 20 22:32:39.506 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47727.
-Jun 20 22:32:39.516 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 20 22:32:39.516 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips 
-Jun 20 22:32:39.516 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/ProjetoFinalAR/project-files/dynamips
-Jun 20 22:32:39.516 HYPERVISOR: exec_cmd: ethsw create Switch5 
-Jun 20 22:32:45.637 HYPERVISOR: exec_cmd: nio create_udp udp-b042f399-1323-480c-86c9-69cd9b4030cd 10183 127.0.0.1 10182 
-Jun 20 22:32:45.637 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-b042f399-1323-480c-86c9-69cd9b4030cd 
-Jun 20 22:32:45.655 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-b042f399-1323-480c-86c9-69cd9b4030cd 1 
-Jun 20 22:32:45.718 HYPERVISOR: exec_cmd: nio create_udp udp-962d4704-f23c-4ffe-8767-7b8f086e7487 10187 127.0.0.1 10186 
-Jun 20 22:32:45.718 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-962d4704-f23c-4ffe-8767-7b8f086e7487 
-Jun 20 22:32:45.735 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-962d4704-f23c-4ffe-8767-7b8f086e7487 1 
+Jun 20 23:32:24.034 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 20 23:32:24.034 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53731.
+Jun 20 23:32:24.043 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 20 23:32:24.045 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips 
+Jun 20 23:32:24.045 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips
+Jun 20 23:32:24.049 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/eedd3aa7-84d2-49f6-b411-5a2b9f286ed0 
+Jun 20 23:32:24.049 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/eedd3aa7-84d2-49f6-b411-5a2b9f286ed0
+Jun 20 23:32:24.049 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Jun 20 23:32:24.049 VM: VM R2 created.
+Jun 20 23:32:24.050 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5013 
+Jun 20 23:32:24.050 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Jun 20 23:32:24.050 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:24.052 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Jun 20 23:32:24.063 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Jun 20 23:32:24.067 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:24.068 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60608040 
+Jun 20 23:32:24.069 HYPERVISOR: exec_cmd: vm set_ios R2 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 20 23:32:24.075 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.4cba.0000 
+Jun 20 23:32:24.080 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Jun 20 23:32:24.081 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Jun 20 23:32:24.084 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:24.084 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+Jun 20 23:32:24.085 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:24.085 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-2FE 
+Jun 20 23:32:24.086 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:24.088 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Jun 20 23:32:24.088 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:24.089 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-2FE-TX 
+Jun 20 23:32:24.091 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:24.091 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 PA-2FE-TX 
+Jun 20 23:32:24.092 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5013 
+Jun 20 23:32:27.057 HYPERVISOR: exec_cmd: nio create_udp udp-ccf603b5-5cfb-444c-b3cf-99388cbe2afd 10218 127.0.0.1 10219 
+Jun 20 23:32:27.315 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-ccf603b5-5cfb-444c-b3cf-99388cbe2afd 
+Jun 20 23:32:27.316 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:28.229 HYPERVISOR: exec_cmd: nio create_udp udp-f335943c-141b-4f1d-b653-b306b526aff2 10226 127.0.0.1 10227 
+Jun 20 23:32:28.230 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-f335943c-141b-4f1d-b653-b306b526aff2 
+Jun 20 23:32:28.230 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:32:28.830 HYPERVISOR: exec_cmd: nio create_udp udp-d755bd72-c0ea-4c3a-918b-e1ca4412a3ed 10236 127.0.0.1 10237 
+Jun 20 23:32:28.831 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-d755bd72-c0ea-4c3a-918b-e1ca4412a3ed 
+Jun 20 23:32:28.831 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:33:36.770 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 20 23:33:36.772 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 20 23:33:36.777 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:33:36.779 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 20 23:33:36.779 HYPERVISOR: exec_cmd: vm start R2 
+Jun 20 23:34:07.048 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 20 23:36:07.073 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 20 23:55:49.080 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:55:49.081 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 20 23:55:49.225 VM: VM R2 shutdown.
+Jun 20 23:55:49.236 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 20 23:59:04.120 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 20 23:59:04.121 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 20 23:59:04.121 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 20 23:59:04.122 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 20 23:59:04.122 HYPERVISOR: exec_cmd: vm start R2 
+Jun 21 00:03:22.551 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 21 00:03:22.552 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 21 00:03:22.704 VM: VM R2 shutdown.
+Jun 21 00:03:22.708 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 21 00:04:01.276 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 21 00:04:01.277 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 21 00:04:01.295 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 21 00:04:01.301 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 21 00:04:01.301 HYPERVISOR: exec_cmd: vm start R2 
+Jun 21 00:08:22.149 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 21 00:08:22.151 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 21 00:08:22.275 VM: VM R2 shutdown.
+Jun 21 00:08:22.280 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 21 00:09:12.135 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 21 00:09:12.158 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 21 00:09:12.159 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 21 00:09:12.160 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 21 00:09:12.160 HYPERVISOR: exec_cmd: vm start R2 
+Jun 21 00:15:41.851 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 21 00:15:41.852 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 21 00:15:41.989 VM: VM R2 shutdown.
+Jun 21 00:15:41.990 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 21 00:38:21.304 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 21 00:38:21.305 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 21 00:38:21.306 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 21 00:38:21.308 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 21 00:38:21.309 HYPERVISOR: exec_cmd: vm start R2 
+Jun 21 00:47:01.248 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 21 00:47:01.250 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 21 00:47:01.384 VM: VM R2 shutdown.
+Jun 21 00:47:01.385 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 21 00:54:21.630 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 21 00:54:21.650 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 21 00:54:21.652 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 21 00:54:21.656 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 21 00:54:21.658 HYPERVISOR: exec_cmd: vm start R2 
