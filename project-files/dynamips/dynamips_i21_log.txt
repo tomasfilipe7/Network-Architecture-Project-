@@ -1,92 +1,25 @@
-Jun 20 23:32:24.189 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
-Jun 20 23:32:24.189 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38941.
-Jun 20 23:32:24.201 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 20 23:32:24.202 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips 
-Jun 20 23:32:24.202 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips
-Jun 20 23:32:24.203 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/21a525ba-e19c-425c-ae53-d9730d5c63ba 
-Jun 20 23:32:24.203 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/21a525ba-e19c-425c-ae53-d9730d5c63ba
-Jun 20 23:32:24.203 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
-Jun 20 23:32:24.203 VM: VM R3 created.
-Jun 20 23:32:24.213 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5018 
-Jun 20 23:32:24.214 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
-Jun 20 23:32:24.215 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:24.215 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
-Jun 20 23:32:24.216 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
-Jun 20 23:32:24.216 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:24.217 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60608040 
-Jun 20 23:32:24.218 HYPERVISOR: exec_cmd: vm set_ios R3 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
-Jun 20 23:32:24.219 HYPERVISOR: exec_cmd: c7200 set_mac_addr R3 ca03.4cd7.0000 
-Jun 20 23:32:24.220 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
-Jun 20 23:32:24.220 HYPERVISOR: exec_cmd: vm set_ram R3 512 
-Jun 20 23:32:24.226 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:24.226 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 0 0 
-Jun 20 23:32:24.227 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:24.227 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-2FE 
-Jun 20 23:32:24.228 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:24.228 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-2FE-TX 
-Jun 20 23:32:24.229 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:24.230 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-2FE-TX 
-Jun 20 23:32:24.233 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:24.234 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 PA-2FE-TX 
-Jun 20 23:32:24.235 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5018 
-Jun 20 23:32:27.691 HYPERVISOR: exec_cmd: nio create_udp udp-1fa7cbba-fdd0-4a8c-bf2a-c236c0aeafd4 10222 127.0.0.1 10223 
-Jun 20 23:32:27.933 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-1fa7cbba-fdd0-4a8c-bf2a-c236c0aeafd4 
-Jun 20 23:32:27.935 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:28.246 HYPERVISOR: exec_cmd: nio create_udp udp-eba37c61-5bb5-4a1e-b676-2a7452149b29 10228 127.0.0.1 10229 
-Jun 20 23:32:28.251 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-eba37c61-5bb5-4a1e-b676-2a7452149b29 
-Jun 20 23:32:28.252 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:32:28.543 HYPERVISOR: exec_cmd: nio create_udp udp-a8c91780-b094-47dc-b71e-6cc408d42b75 10232 127.0.0.1 10233 
-Jun 20 23:32:28.545 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-a8c91780-b094-47dc-b71e-6cc408d42b75 
-Jun 20 23:32:28.545 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:33:36.778 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
-Jun 20 23:33:36.779 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
-Jun 20 23:33:36.782 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:33:36.783 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
-Jun 20 23:33:36.783 HYPERVISOR: exec_cmd: vm start R3 
-Jun 20 23:34:07.052 HYPERVISOR: exec_cmd: vm extract_config R3 
-Jun 20 23:36:07.083 HYPERVISOR: exec_cmd: vm extract_config R3 
-Jun 20 23:55:49.320 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:55:49.325 HYPERVISOR: exec_cmd: vm stop R3 
-Jun 20 23:55:49.470 VM: VM R3 shutdown.
-Jun 20 23:55:49.472 HYPERVISOR: exec_cmd: vm extract_config R3 
-Jun 20 23:59:04.371 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
-Jun 20 23:59:04.373 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
-Jun 20 23:59:04.373 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 20 23:59:04.377 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
-Jun 20 23:59:04.377 HYPERVISOR: exec_cmd: vm start R3 
-Jun 21 00:03:22.684 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 21 00:03:22.685 HYPERVISOR: exec_cmd: vm stop R3 
-Jun 21 00:03:22.813 VM: VM R3 shutdown.
-Jun 21 00:03:22.816 HYPERVISOR: exec_cmd: vm extract_config R3 
-Jun 21 00:04:01.504 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
-Jun 21 00:04:01.504 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
-Jun 21 00:04:01.505 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 21 00:04:01.505 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
-Jun 21 00:04:01.506 HYPERVISOR: exec_cmd: vm start R3 
-Jun 21 00:08:22.307 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 21 00:08:22.308 HYPERVISOR: exec_cmd: vm stop R3 
-Jun 21 00:08:22.480 VM: VM R3 shutdown.
-Jun 21 00:08:22.481 HYPERVISOR: exec_cmd: vm extract_config R3 
-Jun 21 00:09:12.352 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
-Jun 21 00:09:12.353 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
-Jun 21 00:09:12.354 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 21 00:09:12.354 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
-Jun 21 00:09:12.355 HYPERVISOR: exec_cmd: vm start R3 
-Jun 21 00:15:42.000 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 21 00:15:42.003 HYPERVISOR: exec_cmd: vm stop R3 
-Jun 21 00:15:42.142 VM: VM R3 shutdown.
-Jun 21 00:15:42.158 HYPERVISOR: exec_cmd: vm extract_config R3 
-Jun 21 00:38:21.570 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
-Jun 21 00:38:21.572 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
-Jun 21 00:38:21.588 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 21 00:38:21.594 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
-Jun 21 00:38:21.603 HYPERVISOR: exec_cmd: vm start R3 
-Jun 21 00:47:01.386 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 21 00:47:01.389 HYPERVISOR: exec_cmd: vm stop R3 
-Jun 21 00:47:01.528 VM: VM R3 shutdown.
-Jun 21 00:47:01.530 HYPERVISOR: exec_cmd: vm extract_config R3 
-Jun 21 00:54:21.861 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
-Jun 21 00:54:21.870 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
-Jun 21 00:54:21.875 HYPERVISOR: exec_cmd: vm get_status R3 
-Jun 21 00:54:21.876 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
-Jun 21 00:54:21.877 HYPERVISOR: exec_cmd: vm start R3 
+Jun 21 09:24:47.384 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 21 09:24:47.384 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43173.
+Jun 21 09:24:47.394 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 09:24:47.395 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/AR_FinalProject/project-files/dynamips 
+Jun 21 09:24:47.395 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/AR_FinalProject/project-files/dynamips
+Jun 21 09:24:47.395 HYPERVISOR: exec_cmd: ethsw create Switch6 
+Jun 21 09:24:54.324 HYPERVISOR: exec_cmd: nio create_udp udp-0ac7f062-6cbf-495c-b994-191313de708e 10221 127.0.0.1 10220 
+Jun 21 09:24:54.324 HYPERVISOR: exec_cmd: ethsw add_nio Switch6 udp-0ac7f062-6cbf-495c-b994-191313de708e 
+Jun 21 09:24:54.343 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-0ac7f062-6cbf-495c-b994-191313de708e 1 
+Jun 21 09:24:54.411 HYPERVISOR: exec_cmd: nio create_udp udp-9906c41d-abeb-45af-b568-fbf091a3e4d8 10225 127.0.0.1 10224 
+Jun 21 09:24:54.411 HYPERVISOR: exec_cmd: ethsw add_nio Switch6 udp-9906c41d-abeb-45af-b568-fbf091a3e4d8 
+Jun 21 09:24:54.423 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-9906c41d-abeb-45af-b568-fbf091a3e4d8 1 
+Jun 21 09:24:54.488 HYPERVISOR: exec_cmd: nio create_udp udp-01066a5b-31c6-45a5-ba64-5663ddac25db 10228 127.0.0.1 10229 
+Jun 21 09:24:54.488 HYPERVISOR: exec_cmd: ethsw add_nio Switch6 udp-01066a5b-31c6-45a5-ba64-5663ddac25db 
+Jun 21 09:24:54.503 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-01066a5b-31c6-45a5-ba64-5663ddac25db 1 
+Jun 21 09:58:07.031 HYPERVISOR: exec_cmd: ethsw remove_nio Switch6 udp-0ac7f062-6cbf-495c-b994-191313de708e 
+Jun 21 09:58:07.032 HYPERVISOR: exec_cmd: nio delete udp-0ac7f062-6cbf-495c-b994-191313de708e 
+Jun 21 09:58:07.227 HYPERVISOR: exec_cmd: ethsw remove_nio Switch6 udp-9906c41d-abeb-45af-b568-fbf091a3e4d8 
+Jun 21 09:58:07.233 HYPERVISOR: exec_cmd: nio delete udp-9906c41d-abeb-45af-b568-fbf091a3e4d8 
+Jun 21 09:58:58.327 HYPERVISOR: exec_cmd: nio create_udp udp-39ac386d-7cdb-4b7a-b11c-b8e6cb969a60 10221 127.0.0.1 10220 
+Jun 21 09:58:58.327 HYPERVISOR: exec_cmd: ethsw add_nio Switch6 udp-39ac386d-7cdb-4b7a-b11c-b8e6cb969a60 
+Jun 21 09:58:58.335 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-39ac386d-7cdb-4b7a-b11c-b8e6cb969a60 1 
+Jun 21 09:59:02.846 HYPERVISOR: exec_cmd: nio create_udp udp-b448d1fa-3421-45ba-aae8-3edeca612337 10225 127.0.0.1 10224 
+Jun 21 09:59:02.846 HYPERVISOR: exec_cmd: ethsw add_nio Switch6 udp-b448d1fa-3421-45ba-aae8-3edeca612337 
+Jun 21 09:59:02.860 HYPERVISOR: exec_cmd: ethsw set_access_port Switch6 udp-b448d1fa-3421-45ba-aae8-3edeca612337 1 
