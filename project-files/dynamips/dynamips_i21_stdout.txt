@@ -105,4 +105,112 @@ ELF entry point: 0x80008000
 
 C3725 'ESW8': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
 
-C3725 'ESW8': stopping simulati
+C3725 'ESW8': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3725 instance 'ESW8' (id 17):
+  VM Status  : 0
+  RAM size   : 128 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image
+
+Loading ELF file '/home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3725 'ESW8': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3725 'ESW8': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3725 instance 'ESW8' (id 17):
+  VM Status  : 0
+  RAM size   : 128 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image
+
+Loading ELF file '/home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3725 'ESW8': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3725 'ESW8': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3725 instance 'ESW8' (id 17):
+  VM Status  : 0
+  RAM size   : 128 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image
+
+Loading ELF file '/home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3725 'ESW8': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3725 'ESW8': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3725 instance 'ESW8' (id 17):
+  VM Status  : 0
+  RAM size   : 128 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image
+
+Loading ELF file '/home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3725 'ESW8': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3725 'ESW8': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3725 instance 'ESW8' (id 17):
+  VM Status  : 0
+  RAM size   : 128 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image
+
+Loading ELF file '/home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3725 'ESW8': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3725 'ESW8': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3725 instance 'ESW8' (id 17):
+  VM Status  : 0
+  RAM size   : 128 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image
+
+Loading ELF file '/home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3725 'ESW8': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3725 'ESW8': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3725 instance 'ESW8' (id 17):
+  VM Status  : 0
+  RAM size   : 128 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image
+
+Loading ELF file '/home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3725 'ESW8': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3725 'ESW8': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3725 instance 'ESW8' (id 17):
+  VM Status  : 0
+  RAM size   : 128 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image
+
+Loading ELF file '/home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0
