@@ -1,5 +1,5 @@
 # ignore 
 *
-!*.cfg
-!*.vpc
-!*.gns3
+!/*.cfg
+!/*.vpc
+!/*.gns3
