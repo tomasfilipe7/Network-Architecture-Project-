@@ -70,3 +70,88 @@ Jun 21 23:33:36.274 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapir
 Jun 21 23:33:36.277 HYPERVISOR: exec_cmd: vm get_status ESW8 
 Jun 21 23:33:36.286 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
 Jun 21 23:33:36.287 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 00:35:01.191 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:35:01.192 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 00:35:01.344 VM: VM ESW8 shutdown.
+Jun 22 00:35:01.346 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 00:39:37.382 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 00:39:37.383 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 00:39:37.385 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:39:37.388 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 00:39:37.388 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 00:43:44.424 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:43:44.424 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 00:43:44.584 VM: VM ESW8 shutdown.
+Jun 22 00:43:44.585 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 00:45:47.336 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 00:45:47.344 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 00:45:47.359 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:45:47.369 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 00:45:47.383 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 00:50:19.062 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:50:19.063 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 00:50:19.206 VM: VM ESW8 shutdown.
+Jun 22 00:50:19.207 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 00:51:07.149 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 00:51:07.151 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 00:51:07.152 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:51:07.153 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 00:51:07.153 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 00:53:12.242 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:53:12.242 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 00:53:12.392 VM: VM ESW8 shutdown.
+Jun 22 00:53:12.393 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 00:56:02.586 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 00:56:02.588 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 00:56:02.590 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:56:02.592 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 00:56:02.593 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 00:58:31.702 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:58:31.702 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 00:58:31.832 VM: VM ESW8 shutdown.
+Jun 22 00:58:31.833 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 00:59:42.270 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 00:59:42.274 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 00:59:42.277 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 00:59:42.281 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 00:59:42.282 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 01:01:24.033 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:01:24.033 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 01:01:24.219 VM: VM ESW8 shutdown.
+Jun 22 01:01:24.221 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 01:02:02.464 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 01:02:02.467 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 01:02:02.469 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:02:02.473 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 01:02:02.473 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 01:25:14.771 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:25:14.774 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 01:25:14.984 VM: VM ESW8 shutdown.
+Jun 22 01:25:14.987 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 01:25:42.946 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 01:25:42.951 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 01:25:42.953 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:25:42.958 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 01:25:42.959 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 01:28:57.621 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:28:57.623 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 01:28:57.774 VM: VM ESW8 shutdown.
+Jun 22 01:28:57.775 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 01:29:31.358 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 01:29:31.360 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 01:29:31.360 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:29:31.361 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 01:29:31.369 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 01:43:22.517 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:43:22.517 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 01:43:22.682 VM: VM ESW8 shutdown.
+Jun 22 01:43:22.692 HYPERVISOR: exec_cmd: vm extract_config ESW8 
+Jun 22 01:50:16.050 HYPERVISOR: exec_cmd: vm set_ghost_status ESW8 2 
+Jun 22 01:50:16.054 HYPERVISOR: exec_cmd: vm set_ghost_file ESW8 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 22 01:50:16.055 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:50:16.055 HYPERVISOR: exec_cmd: vm set_config ESW8 configs/i17_startup-config.cfg 
+Jun 22 01:50:16.056 HYPERVISOR: exec_cmd: vm start ESW8 
+Jun 22 01:58:48.846 HYPERVISOR: exec_cmd: vm get_status ESW8 
+Jun 22 01:58:48.847 HYPERVISOR: exec_cmd: vm stop ESW8 
+Jun 22 01:58:48.979 VM: VM ESW8 shutdown.
+Jun 22 01:58:48.979 HYPERVISOR: exec_cmd: vm extract_config ESW8 

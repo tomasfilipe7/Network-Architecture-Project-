@@ -23,3 +23,15 @@ Jun 21 23:37:43.137 HYPERVISOR: exec_cmd: nio bind_filter udp-b82a6df7-5de2-4936
 Jun 21 23:37:43.149 HYPERVISOR: exec_cmd: nio setup_filter udp-b82a6df7-5de2-4936-8e31-4deae5e4a960 2 en10mb /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/captures/ESW5_FastEthernet11_to_Switch5_Ethernet0.pcap 
 Jun 21 23:37:53.270 HYPERVISOR: exec_cmd: nio bind_filter udp-f9e5bbb5-7102-4a1a-8663-3f2b0956fae2 2 capture 
 Jun 21 23:37:53.271 HYPERVISOR: exec_cmd: nio setup_filter udp-f9e5bbb5-7102-4a1a-8663-3f2b0956fae2 2 en10mb /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/captures/ESW6_FastEthernet11_to_Switch5_Ethernet1.pcap 
+Jun 22 01:39:17.138 HYPERVISOR: exec_cmd: nio unbind_filter udp-f9e5bbb5-7102-4a1a-8663-3f2b0956fae2 2 
+Jun 22 01:39:21.149 HYPERVISOR: exec_cmd: nio unbind_filter udp-b82a6df7-5de2-4936-8e31-4deae5e4a960 2 
+Jun 22 01:39:23.721 HYPERVISOR: exec_cmd: nio bind_filter udp-f9e5bbb5-7102-4a1a-8663-3f2b0956fae2 2 capture 
+Jun 22 01:39:23.722 HYPERVISOR: exec_cmd: nio setup_filter udp-f9e5bbb5-7102-4a1a-8663-3f2b0956fae2 2 en10mb /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/captures/ESW6_FastEthernet11_to_Switch5_Ethernet1.pcap 
+Jun 22 01:39:27.711 HYPERVISOR: exec_cmd: nio bind_filter udp-b82a6df7-5de2-4936-8e31-4deae5e4a960 2 capture 
+Jun 22 01:39:27.711 HYPERVISOR: exec_cmd: nio setup_filter udp-b82a6df7-5de2-4936-8e31-4deae5e4a960 2 en10mb /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/captures/ESW5_FastEthernet11_to_Switch5_Ethernet0.pcap 
+Jun 22 01:52:50.092 HYPERVISOR: exec_cmd: nio unbind_filter udp-f9e5bbb5-7102-4a1a-8663-3f2b0956fae2 2 
+Jun 22 01:52:55.022 HYPERVISOR: exec_cmd: nio unbind_filter udp-b82a6df7-5de2-4936-8e31-4deae5e4a960 2 
+Jun 22 01:52:59.347 HYPERVISOR: exec_cmd: nio bind_filter udp-f9e5bbb5-7102-4a1a-8663-3f2b0956fae2 2 capture 
+Jun 22 01:52:59.347 HYPERVISOR: exec_cmd: nio setup_filter udp-f9e5bbb5-7102-4a1a-8663-3f2b0956fae2 2 en10mb /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/captures/ESW6_FastEthernet11_to_Switch5_Ethernet1.pcap 
+Jun 22 01:53:05.065 HYPERVISOR: exec_cmd: nio bind_filter udp-b82a6df7-5de2-4936-8e31-4deae5e4a960 2 capture 
+Jun 22 01:53:05.067 HYPERVISOR: exec_cmd: nio setup_filter udp-b82a6df7-5de2-4936-8e31-4deae5e4a960 2 en10mb /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/captures/ESW5_FastEthernet11_to_Switch5_Ethernet0.pcap 
