@@ -1,36 +1,72 @@
-Jun 21 09:24:47.344 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
-Jun 21 09:24:47.344 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 41271.
-Jun 21 09:24:47.354 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 21 09:24:47.354 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/GNS3/projects/AR_FinalProject/project-files/dynamips 
-Jun 21 09:24:47.354 GENERAL: working_dir=/home/tomasfilipe/GNS3/projects/AR_FinalProject/project-files/dynamips
-Jun 21 09:24:47.354 HYPERVISOR: exec_cmd: ethsw create Switch5 
-Jun 21 09:24:53.384 HYPERVISOR: exec_cmd: nio create_udp udp-041a9401-83f9-4603-a4c0-931a84edd428 10183 127.0.0.1 10182 
-Jun 21 09:24:53.385 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-041a9401-83f9-4603-a4c0-931a84edd428 
-Jun 21 09:24:53.394 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-041a9401-83f9-4603-a4c0-931a84edd428 1 
-Jun 21 09:24:53.456 HYPERVISOR: exec_cmd: nio create_udp udp-de3a621e-ff27-4682-85c7-76fa0a343197 10187 127.0.0.1 10186 
-Jun 21 09:24:53.456 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-de3a621e-ff27-4682-85c7-76fa0a343197 
-Jun 21 09:24:53.475 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-de3a621e-ff27-4682-85c7-76fa0a343197 1 
-Jun 21 10:21:05.116 HYPERVISOR: exec_cmd: nio create_udp udp-80efebe7-3bc6-42cd-b337-cbba5fe52a57 10251 127.0.0.1 10250 
-Jun 21 10:21:05.117 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-80efebe7-3bc6-42cd-b337-cbba5fe52a57 
-Jun 21 10:21:05.120 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-80efebe7-3bc6-42cd-b337-cbba5fe52a57 1 
-Jun 21 10:21:08.872 HYPERVISOR: exec_cmd: nio create_udp udp-3f00ae3a-7730-4ebf-ad4b-053501827287 10253 127.0.0.1 10252 
-Jun 21 10:21:08.872 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-3f00ae3a-7730-4ebf-ad4b-053501827287 
-Jun 21 10:21:08.881 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-3f00ae3a-7730-4ebf-ad4b-053501827287 1 
-Jun 21 10:21:12.544 HYPERVISOR: exec_cmd: nio create_udp udp-a7ca548c-f194-4e8e-bcf8-07a4ec86eda6 10255 127.0.0.1 10254 
-Jun 21 10:21:12.545 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-a7ca548c-f194-4e8e-bcf8-07a4ec86eda6 
-Jun 21 10:21:12.557 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-a7ca548c-f194-4e8e-bcf8-07a4ec86eda6 1 
-Jun 21 10:35:30.451 HYPERVISOR: exec_cmd: ethsw remove_nio Switch5 udp-041a9401-83f9-4603-a4c0-931a84edd428 
-Jun 21 10:35:30.456 HYPERVISOR: exec_cmd: nio delete udp-041a9401-83f9-4603-a4c0-931a84edd428 
-Jun 21 10:35:30.693 HYPERVISOR: exec_cmd: ethsw remove_nio Switch5 udp-de3a621e-ff27-4682-85c7-76fa0a343197 
-Jun 21 10:35:30.697 HYPERVISOR: exec_cmd: nio delete udp-de3a621e-ff27-4682-85c7-76fa0a343197 
-Jun 21 10:35:52.127 HYPERVISOR: exec_cmd: nio create_udp udp-485dad15-3643-4024-85e5-99897da66648 10133 127.0.0.1 10132 
-Jun 21 10:35:52.128 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-485dad15-3643-4024-85e5-99897da66648 
-Jun 21 10:35:52.133 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-485dad15-3643-4024-85e5-99897da66648 1 
-Jun 21 10:35:57.247 HYPERVISOR: exec_cmd: ethsw remove_nio Switch5 udp-485dad15-3643-4024-85e5-99897da66648 
-Jun 21 10:35:57.261 HYPERVISOR: exec_cmd: nio delete udp-485dad15-3643-4024-85e5-99897da66648 
-Jun 21 10:36:09.146 HYPERVISOR: exec_cmd: nio create_udp udp-644c48c3-5ea2-4047-86e7-510219bff569 10133 127.0.0.1 10132 
-Jun 21 10:36:09.146 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-644c48c3-5ea2-4047-86e7-510219bff569 
-Jun 21 10:36:09.149 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-644c48c3-5ea2-4047-86e7-510219bff569 1 
-Jun 21 10:36:13.749 HYPERVISOR: exec_cmd: nio create_udp udp-feab0873-ce01-416a-8650-d0ceb7d970aa 10137 127.0.0.1 10136 
-Jun 21 10:36:13.749 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-feab0873-ce01-416a-8650-d0ceb7d970aa 
-Jun 21 10:36:13.754 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-feab0873-ce01-416a-8650-d0ceb7d970aa 1 
+Jun 21 22:11:08.552 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 21 22:11:08.552 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 36781.
+Jun 21 22:11:08.562 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 21 22:11:08.563 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips 
+Jun 21 22:11:08.563 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips
+Jun 21 22:11:08.563 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/02b9c4b3-e0cc-432b-85e1-a5ce14273782 
+Jun 21 22:11:08.563 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/02b9c4b3-e0cc-432b-85e1-a5ce14273782
+Jun 21 22:11:08.563 HYPERVISOR: exec_cmd: vm create ESW7 16 c3725 
+Jun 21 22:11:08.564 VM: VM ESW7 created.
+Jun 21 22:11:08.564 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW7 5071 
+Jun 21 22:11:08.564 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW7 
+Jun 21 22:11:08.565 HYPERVISOR: exec_cmd: vm set_disk0 ESW7 1 
+Jun 21 22:11:08.565 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:11:08.565 HYPERVISOR: exec_cmd: vm set_idle_pc ESW7 0x60a6a1e0 
+Jun 21 22:11:08.566 HYPERVISOR: exec_cmd: vm set_ios ESW7 /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 21 22:11:08.566 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW7 c210.1f8c.0000 
+Jun 21 22:11:08.566 HYPERVISOR: exec_cmd: vm set_nvram ESW7 256 
+Jun 21 22:11:08.567 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:11:08.567 HYPERVISOR: exec_cmd: vm slot_add_binding ESW7 1 0 NM-16ESW 
+Jun 21 22:11:15.350 HYPERVISOR: exec_cmd: nio create_udp udp-af80964e-2d6a-47c2-a82a-839642a514f0 10132 127.0.0.1 10133 
+Jun 21 22:11:15.567 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW7 0 0 udp-af80964e-2d6a-47c2-a82a-839642a514f0 
+Jun 21 22:11:15.569 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:11:15.697 HYPERVISOR: exec_cmd: nio create_udp udp-d89f8c4d-bcf9-4afd-a06b-40a91e4e7178 10138 127.0.0.1 10139 
+Jun 21 22:11:15.698 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW7 0 1 udp-d89f8c4d-bcf9-4afd-a06b-40a91e4e7178 
+Jun 21 22:11:15.699 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:11:16.291 HYPERVISOR: exec_cmd: nio create_udp udp-148353cd-7bb6-46fb-a45c-ac57ac207dfa 10158 127.0.0.1 10159 
+Jun 21 22:11:16.292 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW7 1 0 udp-148353cd-7bb6-46fb-a45c-ac57ac207dfa 
+Jun 21 22:11:16.292 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:11:16.398 HYPERVISOR: exec_cmd: nio create_udp udp-b5753a19-62ae-4edb-97fe-26f85a954ada 10162 127.0.0.1 10163 
+Jun 21 22:11:16.399 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW7 1 1 udp-b5753a19-62ae-4edb-97fe-26f85a954ada 
+Jun 21 22:11:16.399 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:13:10.079 HYPERVISOR: exec_cmd: vm set_ghost_status ESW7 2 
+Jun 21 22:13:10.080 HYPERVISOR: exec_cmd: vm set_ghost_file ESW7 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 21 22:13:10.081 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:13:10.083 HYPERVISOR: exec_cmd: vm set_config ESW7 configs/i16_startup-config.cfg 
+Jun 21 22:13:10.083 HYPERVISOR: exec_cmd: vm start ESW7 
+Jun 21 22:15:41.606 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:15:41.607 HYPERVISOR: exec_cmd: vm stop ESW7 
+Jun 21 22:15:41.772 VM: VM ESW7 shutdown.
+Jun 21 22:15:41.773 HYPERVISOR: exec_cmd: vm extract_config ESW7 
+Jun 21 22:25:32.253 HYPERVISOR: exec_cmd: vm set_ghost_status ESW7 2 
+Jun 21 22:25:32.254 HYPERVISOR: exec_cmd: vm set_ghost_file ESW7 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 21 22:25:32.256 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:25:32.258 HYPERVISOR: exec_cmd: vm set_config ESW7 configs/i16_startup-config.cfg 
+Jun 21 22:25:32.258 HYPERVISOR: exec_cmd: vm start ESW7 
+Jun 21 22:40:49.534 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:40:49.534 HYPERVISOR: exec_cmd: vm stop ESW7 
+Jun 21 22:40:49.697 VM: VM ESW7 shutdown.
+Jun 21 22:40:49.698 HYPERVISOR: exec_cmd: vm extract_config ESW7 
+Jun 21 22:43:08.451 HYPERVISOR: exec_cmd: vm set_ghost_status ESW7 2 
+Jun 21 22:43:08.452 HYPERVISOR: exec_cmd: vm set_ghost_file ESW7 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 21 22:43:08.455 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 22:43:08.456 HYPERVISOR: exec_cmd: vm set_config ESW7 configs/i16_startup-config.cfg 
+Jun 21 22:43:08.457 HYPERVISOR: exec_cmd: vm start ESW7 
+Jun 21 23:01:53.363 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 23:01:53.365 HYPERVISOR: exec_cmd: vm stop ESW7 
+Jun 21 23:01:53.504 VM: VM ESW7 shutdown.
+Jun 21 23:01:53.504 HYPERVISOR: exec_cmd: vm extract_config ESW7 
+Jun 21 23:12:05.751 HYPERVISOR: exec_cmd: vm set_ghost_status ESW7 2 
+Jun 21 23:12:05.753 HYPERVISOR: exec_cmd: vm set_ghost_file ESW7 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 21 23:12:05.755 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 23:12:05.757 HYPERVISOR: exec_cmd: vm set_config ESW7 configs/i16_startup-config.cfg 
+Jun 21 23:12:05.758 HYPERVISOR: exec_cmd: vm start ESW7 
+Jun 21 23:28:06.130 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 23:28:06.131 HYPERVISOR: exec_cmd: vm stop ESW7 
+Jun 21 23:28:06.266 VM: VM ESW7 shutdown.
+Jun 21 23:28:06.267 HYPERVISOR: exec_cmd: vm extract_config ESW7 
+Jun 21 23:33:36.214 HYPERVISOR: exec_cmd: vm set_ghost_status ESW7 2 
+Jun 21 23:33:36.215 HYPERVISOR: exec_cmd: vm set_ghost_file ESW7 /home/marciapires10/Desktop/Universidade/3Ano/2semestre/AR/Projeto/AR_FinalProject/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 21 23:33:36.216 HYPERVISOR: exec_cmd: vm get_status ESW7 
+Jun 21 23:33:36.220 HYPERVISOR: exec_cmd: vm set_config ESW7 configs/i16_startup-config.cfg 
+Jun 21 23:33:36.220 HYPERVISOR: exec_cmd: vm start ESW7 
